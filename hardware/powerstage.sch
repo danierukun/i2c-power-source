@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:PIC16F1823
+LIBS:dips-s
 LIBS:powerchannel-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""

@@ -1,4 +1,4 @@
-update=Thu 23 Jul 2015 11:24:28 PM CDT
+update=Fri 24 Jul 2015 10:23:52 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=local/PIC16F1823
+LibName31=local/dips-s
