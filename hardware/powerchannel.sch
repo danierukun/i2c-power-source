@@ -93,11 +93,9 @@ Text Label 5150 2400 0    60   ~ 0
 I2C_SCL
 Text Label 5150 2100 0    60   ~ 0
 DAC_ANALOG_PART
-Text Label 5150 2200 0    60   ~ 0
-DAC_VREF
 Text Label 5150 2000 0    60   ~ 0
 ICSP_DATA
-Text Label 5150 2300 0    60   ~ 0
+Text Label 5150 2200 0    60   ~ 0
 ICSP_CLK
 $Comp
 L R R11
@@ -718,13 +716,6 @@ Wire Wire Line
 	5000 2000 5000 2100
 Connection ~ 5000 2100
 Wire Wire Line
-	4800 2200 5150 2200
-Wire Wire Line
-	5150 2300 5000 2300
-Wire Wire Line
-	5000 2300 5000 2200
-Connection ~ 5000 2200
-Wire Wire Line
 	8400 1900 8850 1900
 Wire Wire Line
 	9150 1400 9150 1700
@@ -918,4 +909,6 @@ F 3 "" H 5000 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4500 850 
+Wire Wire Line
+	5150 2200 4800 2200
 $EndSCHEMATC
