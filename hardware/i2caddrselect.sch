@@ -92,7 +92,7 @@ $EndComp
 NoConn ~ 4550 3900
 Text HLabel 3000 4650 0    60   Input ~ 0
 ADDR_LATCH
-Text HLabel 3000 4900 0    60   Input ~ 0
+Text HLabel 3000 4800 0    60   Input ~ 0
 CLK
 $Comp
 L GND #PWR32
@@ -190,13 +190,6 @@ Connection ~ 1400 3900
 Connection ~ 1400 3800
 Wire Wire Line
 	3000 4650 3150 4650
-Wire Wire Line
-	3000 4900 3150 4900
-Wire Wire Line
-	3150 4800 3050 4800
-Wire Wire Line
-	3050 4800 3050 4900
-Connection ~ 3050 4900
 Wire Wire Line
 	2950 3500 3150 3500
 Wire Wire Line
@@ -387,4 +380,21 @@ Wire Wire Line
 	3150 4200 2400 4200
 Wire Wire Line
 	2400 4100 3150 4100
+Wire Wire Line
+	3000 4800 3150 4800
+$Comp
+L GND #PWR?
+U 1 1 55C2852A
+P 3050 5000
+F 0 "#PWR?" H 3050 4750 50  0001 C CNN
+F 1 "GND" H 3050 4850 50  0000 C CNN
+F 2 "" H 3050 5000 60  0000 C CNN
+F 3 "" H 3050 5000 60  0000 C CNN
+	1    3050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5000 3050 4900
+Wire Wire Line
+	3050 4900 3150 4900
 $EndSCHEMATC
